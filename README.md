@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<div align="center">
 
-## Getting Started
+# 🏗️ Monolith Dashboard
 
-First, run the development server:
+**Analiza y documenta tu API en segundos.**
 
+[![Next.js](https://img.shields.io/badge/Next.js-15-black?style=flat-square&logo=next.js)](https://nextjs.org/)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-CSS-38B2AC?style=flat-square&logo=tailwind-css)](https://tailwindcss.com/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript)](https://www.typescriptlang.org/)
+
+</div>
+
+---
+
+**Monolith Dashboard** es una plataforma web que analiza tu código de Node.js (Express/Fastify) y genera automáticamente documentación Swagger, tests y un SDK de TypeScript. 
+
+Es la interfaz visual del ecosistema **Monolith-Core**, diseñada para que los desarrolladores ahorren horas de trabajo manual.
+
+## ✨ Características
+
+- ⚡ **Análisis de rutas**: Pega tu código, sube un archivo o conecta con GitHub.
+- 🎨 **Editor interactivo**: Resaltado de sintaxis con Monaco Editor (el motor de VS Code).
+- 📊 **Generación automática**: Descarga Swagger, Tests y más.
+- 🔗 **GitHub Gists**: Exporta tus archivos generados directamente a GitHub.
+- 📜 **Historial**: Guarda tus últimos análisis en el navegador.
+
+## 🚀 Demo en Vivo
+
+Puedes probar la aplicación sin instalar nada aquí:
+👉 **[Monolith Dashboard Demo](https://monolith-dashboard.vercel.app)**
+
+## 💻 Ejecutar Localmente
+
+1. Clona el repositorio:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+  git clone https://github.com/AiiDev0/monolith-dashboard.git
 ```
+2. Instala las dependencias:
+```bash
+  npm install
+```
+3. Inicia el servidor:
+```bash
+  npm run dev
+```
+4. Abre `http://localhost:3000` en tu navegador.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🔒 ¿Necesitas la suite completa?
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Este Dashboard es una herramienta gratuita. Si quieres generar Dockerfiles, modelos de base de datos, diagramas visuales y más, necesitas **Monolith-Core PRO**.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+👉 [Consigue Monolith-Core PRO en Gumroad](https://aiberson.gumroad.com/l/monolith-core-pro)
 
-## Learn More
+## 📄 Licencia
 
-To learn more about Next.js, take a look at the following resources:
+Licencia comercial para uso ilimitado. Prohibida su redistribución o venta.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+© [Aiberson Montilla](https://github.com/aiidev0)
