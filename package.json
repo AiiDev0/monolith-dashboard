@@ -9,9 +9,11 @@
     "lint": "eslint"
   },
   "dependencies": {
+    "@monaco-editor/react": "^4.7.0",
     "next": "16.4.3",
     "react": "19.3.0",
-    "react-dom": "19.3.0"
+    "react-dom": "19.3.0",
+    "ts-morph": "^28.0.0"
   },
   "devDependencies": {
     "@tailwindcss/turbopack": "^4",
